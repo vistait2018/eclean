@@ -1,0 +1,2 @@
+<?php if (!empty($_GET['aid']) and isset($_SESSION['adminEdit'])) print' <a href="'. __SITEURL__ .'gallery/view?aid='.$_GET['aid'].'" class="btn btn-info">View Photo Album </a> '; ?>
+<?php if (!empty($_GET['aid']) and isset($_SESSION['adminEdit']))  print' <a href="'. __SITEURL__ .'gallery/edit?aid='.$_GET['aid'].'" class="btn btn-info">Edit Album</a> '; ?>
